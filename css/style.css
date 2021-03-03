@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&family=Parisienne&family=Pompiere&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    outline-style: none;
+}
+
+:root {
+    --bg-color: #f4f9f9;
+    --light-blue: #ccf2f4;
+    --blue: #00917c;
+    --dark-blue: #025955;
+    --gray-color: #aaaaaa;
+    --dark-color: #433520;
+}
+
+/* Global styles */
+
+body {
+    font-family: 'Oregano', cursive;
+    background: var(--bg-color);
+    color: var(--dark-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--blue);
+}
+
+.clr {
+    clear: both;
+}
+
+hr {
+    width: 10%;
+    margin: auto;
+    border: 6px dotted var(--dark-color);
+    border-bottom: none;
+}
+
+/* end of global styles */
+
+/* Navigation styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 10%;
+}
+
+.brand img {
+    max-width: 40px;
+}
+
+nav>a {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: var(--dark-color);
+    transition: all ease-in-out .5s;
+}
+
+nav>a:hover {
+    color: var(--dark-blue);
+}
+
+/* end of navigation styles */
+
+/* jumbotron styles */
+
+.jumbotron {
+    margin-bottom: 2rem;
+}
+
+.jumbo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.jumbo-content h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 5rem;
+}
+
+.jumbo-content p {
+    font-family: 'Pompiere', cursive;
+    font-size: 1rem;
+}
+
+.jumbo-content a {
+    font-family: 'Oregano', cursive;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background: var(--dark-blue);
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.code {
+    width: 350px;
+}
+
+.pro1 {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    opacity: .5;
+}
+
+.pro2 {
+    position: absolute;
+    right: 200px;
+    bottom: 400px;
+    opacity: .5;
+}
+
+/* end of jumbotron styles */
+
+/* about styles */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+
+#about h1 {
+    margin-bottom: 1rem;
+}
+
+.profile img {
+    border-radius: 100%;
+    max-width: 150px;
+}
+
+.about-text {
+    width: 450px;
+    text-align: center;
+}
+
+.about-text p {
+    padding: 1rem 0;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.skill {
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.dev {
+    width: 30%;
+    float: right;
+}
+
+.grap {
+    width: 30%;
+    float: left;
+}
+
+/* end of about styles */
+
+/* project styles */
+
+#projects {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.project {
+    width: 50%;
+    margin: auto;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.project-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.project-img2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+/* end of project styles */
+
+/* footer styles */
+
+#contact {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.contact-text {
+    width: 20%;
+    margin: auto;
+}
+
+.contact-text a {
+    font-family: 'Oregano', cursive;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background: var(--dark-blue);
+    color: #fff;
+}
+
+.contact-text p {
+    padding: 1rem 0;
+}
+
+.footer-content {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    background: var(--dark-blue);
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content p {
+    padding: 1rem 0rem;
+}
+
+.social h3 {
+    color: #fff;
+    padding: 1rem 0rem;
+}
+
+.icons {
+    width: 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* end of footer styles */
