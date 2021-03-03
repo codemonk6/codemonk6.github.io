@@ -265,6 +265,13 @@ nav>a:hover {
     justify-content: space-between;
 }
 
+.icons a {
+    color: #fff;
+    transition: all ease-in-out .5s;
+}
 
+.icons a:hover{
+    color: var(--light-blue);
+}
 
 /* end of footer styles */
