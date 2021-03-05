@@ -275,3 +275,73 @@ nav>a:hover {
 }
 
 /* end of footer styles */
+
+/* media Queries */
+
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .brand {
+        display: none;
+    }
+
+    nav>a {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+
+    .jumbo-content h1 {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+
+    .jumbo-content p {
+        font-size: .8rem;
+    }
+
+    .code {
+        width: 300px;
+    }
+
+    .pro1 {
+        display: none;
+    }
+
+    .pro2 {
+        display: none;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .skill {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .project {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .contact-text {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .contact-text a {
+      display: block;
+    }
+
+    .icons {
+        width: 100%;
+        padding: 0 30%;
+    }
+}
+
+/* end of media query */
