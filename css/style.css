@@ -200,17 +200,28 @@ nav>a:hover {
 }
 
 .project-img {
-    width: 25%;
+    width: 60%;
     float: left;
     margin-right: 30px;
 }
 
 .project-img2 {
-    width: 25%;
+    width: 60%;
     float: right;
     margin-left: 30px;
 }
 
+.project p {
+    margin-bottom: 1rem;
+}
+
+.view {
+    margin: .5rem;
+    padding: .3rem;
+    background: #00917c;
+    color: #fff;
+    border-radius: 5px;
+}
 
 /* end of project styles */
 
@@ -288,6 +299,10 @@ nav>a:hover {
         display: none;
     }
 
+    nav {
+        text-align: center;
+    }
+
     nav>a {
         padding: .5rem;
         font-size: 1rem;
@@ -308,6 +323,10 @@ nav>a:hover {
 
     .pro1 {
         display: none;
+    }
+
+    .code {
+        max-width: 100%;
     }
 
     .pro2 {
